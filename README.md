@@ -1,15 +1,8 @@
-## TNM094 Labs - Particle System
+# TNM094 - Particle System
 
-A minimal particle system acting as a foundation for the course labs.
-A small graphical interface is provided for visually editing parameters.
+This particle system is a part of the course [TNM094 Media Technology - Bachelor Project](https://studieinfo.liu.se/en/kurs/TNM094/vt-2023) at Linköping University 2023. It is a minimal particle system with a small graphical interface that allows for visually editing parameters. The source code can be found on the [GitLab Repository](https://gitlab.liu.se/tnm094-labs/particlesystem) if permitted.
 
-#### Folder structure
-
-- /include: Header files
-- /src: Cpp files
-- /unittest: Examples of tests
-
-#### Setup instructions
+## Setup instructions
 Dependencies:
  - [CMake](https://cmake.org/download/) For cross-platform compiler project generation.
  - [Vcpkg](https://github.com/microsoft/vcpkg) For dependency management
@@ -20,7 +13,7 @@ Dependencies:
 
 2)  In the project folder:
     * git clone https://github.com/microsoft/vcpkg 
-    * git clone https://gitlab.liu.se/tnm094-labs/particlesystem.git
+    * git clone https://github.com/rasmussvala/TNM094-Particle-System.git
 
 2)  Open CMake (we recommend using the GUI here), enter the source path to the particlesystem git repo
     and select one of the "presets" ("MSVC 2022", "Xcode", "Ninja", "Unix Makefiles")
@@ -30,3 +23,7 @@ Dependencies:
 3)  Hit Generate and then Open Project to open the project in your IDE.
 
 4)  Build and run the 'application' executable.
+
+## Application Preview
+
+![particle-system](https://github.com/user-attachments/assets/0ca36f3c-1b84-4f57-a106-e7a4d626ae54)
